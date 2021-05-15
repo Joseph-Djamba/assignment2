@@ -25,6 +25,14 @@ public class Student {
         return name;
     }
 
+    public String getName(String studentNumber) {
+        String name = "";
+        if(studentNumber == this.getStudentNumber()){
+            name= this.name;
+        }
+        return name;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
