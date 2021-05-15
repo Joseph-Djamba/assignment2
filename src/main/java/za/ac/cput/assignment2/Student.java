@@ -1,5 +1,8 @@
 package za.ac.cput.assignment2;
-
+/*
+ @author: Umba Joseph 218292694
+ * This is the assignment 2 using collection , Map, set,List
+ */
 public class Student {
     private String studentNumber;
     private String name;
